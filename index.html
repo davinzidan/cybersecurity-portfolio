@@ -18,9 +18,11 @@
             <nav class="nav-menu" id="nav-menu">
                 <a href="#about" class="nav-link">About</a>
                 <a href="#skills" class="nav-link">Skills</a>
+                <a href="#hands-on" class="nav-link">Hands-on</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#github" class="nav-link">GitHub</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -57,7 +59,6 @@
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
-        </div>
     </section>
 
     <!-- About -->
@@ -82,6 +83,9 @@
                         I am passionate about identifying security gaps before adversaries do, and helping 
                         organizations build resilient defenses through thorough testing and clear reporting.
                     </p>
+                    <p>
+                        Interested in practical offensive security and continuously exploring real-world attack scenarios through hands-on labs and projects.
+                    </p>
                     <div class="about-buttons">
                         <a href="cv.pdf" class="btn btn-primary btn-sm" download>
                             <i class="fas fa-download"></i> Download CV
@@ -90,9 +94,7 @@
                             <i class="fas fa-phone"></i> Contact Me
                         </a>
                     </div>
-                </div>
             </div>
-        </div>
     </section>
 
     <!-- Skills -->
@@ -158,12 +160,31 @@
                         <li>JavaScript</li>
                     </ul>
                 </div>
-            </div>
         </div>
     </section>
 
+    <!-- Hands-on Experience -->
+    <section class="section" id="hands-on">
+        <div class="container">
+            <h2 class="section-title">Hands-on Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <ul class="experience-details">
+                            <li>Completed multiple TryHackMe labs covering network scanning, web vulnerabilities, and basic exploitation techniques</li>
+                            <li>Practiced tools such as Nmap, Burp Suite, Wireshark, and Metasploit in simulated environments</li>
+                            <li>Gained practical exposure to reconnaissance, vulnerability identification, and security testing workflows</li>
+                        </ul>
+                        <a href="https://tryhackme.com/p/davinzidan99" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" style="margin-top: 1rem;">
+                            <i class="fas fa-shield-halved"></i> View TryHackMe Profile
+                        </a>
+                    </div>
+            </div>
+    </section>
+
     <!-- Projects -->
-    <section class="section" id="projects">
+    <section class="section section-alt" id="projects">
         <div class="container">
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
@@ -173,69 +194,44 @@
                         <h3 class="project-title">Session Hijacking Tool</h3>
                     </div>
                     <p class="project-desc">
-                        Developed a proof-of-concept tool using ESP8266 and Python to demonstrate session hijacking 
-                        risks in unsecured networks. Configured the ESP8266 as a Wi-Fi access point to intercept 
-                        unencrypted HTTP traffic, then used Python scripts to parse and extract session cookies.
-                    </p>
-                    <p class="project-desc">
-                        Captured and analyzed network packets using Wireshark to identify session management 
-                        vulnerabilities. Documented findings and provided mitigation recommendations including 
-                        HTTPS enforcement, secure cookie flags, and HSTS implementation.
+                        Developed a proof-of-concept tool using ESP8266 and Python to simulate session hijacking attacks. Captured and analyzed network traffic using Wireshark to identify vulnerabilities in unsecured networks.
                     </p>
                     <div class="project-tags">
                         <span class="tag">ESP8266</span>
                         <span class="tag">Python</span>
                         <span class="tag">Wireshark</span>
                     </div>
-                </div>
                 <div class="project-card">
                     <div class="project-header">
                         <div class="project-icon"><i class="fas fa-car"></i></div>
                         <h3 class="project-title">FixNGo Application</h3>
                     </div>
                     <p class="project-desc">
-                        Built a cross-platform mobile application using Flutter for real-time vehicle breakdown 
-                        assistance. Designed an intuitive UI for users to report issues, request roadside help, 
-                        and track mechanic arrival in real time.
-                    </p>
-                    <p class="project-desc">
-                        Integrated RESTful backend APIs for user authentication, service booking, and location 
-                        tracking. Optimized performance through efficient state management and lazy loading, 
-                        reducing initial load time by 40%.
+                        Developed a Flutter-based application with backend integration for real-time vehicle issue support, including service request handling and performance optimization.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Flutter</span>
                         <span class="tag">Mobile App</span>
-                        <span class="tag">REST API</span>
+                        <span class="tag">Backend</span>
                     </div>
-                </div>
                 <div class="project-card">
                     <div class="project-header">
                         <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
                         <h3 class="project-title">E-commerce Web Application</h3>
                     </div>
                     <p class="project-desc">
-                        Developed a full-stack e-commerce platform with secure user authentication using JWT tokens, 
-                        role-based access control, and encrypted password storage. Implemented product catalog 
-                        management, shopping cart functionality, and order processing workflows.
-                    </p>
-                    <p class="project-desc">
-                        Built the frontend with React and integrated a Django REST backend with MySQL database. 
-                        Designed normalized database schemas and wrote optimized queries for product search and 
-                        filtering. Deployed on cloud infrastructure with CI/CD pipeline.
+                        Built a full-stack web application using React, Django, and MySQL with secure authentication, API integration, and responsive UI.
                     </p>
                     <div class="project-tags">
                         <span class="tag">React</span>
                         <span class="tag">Django</span>
                         <span class="tag">MySQL</span>
                     </div>
-                </div>
             </div>
-        </div>
     </section>
 
     <!-- Experience -->
-    <section class="section section-alt" id="experience">
+    <section class="section" id="experience">
         <div class="container">
             <h2 class="section-title">Experience</h2>
             <div class="experience-list">
@@ -251,13 +247,11 @@
                             <li>Collaborated with audit teams to evaluate internal controls and data protection mechanisms</li>
                         </ul>
                     </div>
-                </div>
             </div>
-        </div>
     </section>
 
     <!-- Certifications -->
-    <section class="section" id="certifications">
+    <section class="section section-alt" id="certifications">
         <div class="container">
             <h2 class="section-title">Certifications</h2>
             <div class="cert-grid">
@@ -285,7 +279,23 @@
                         <i class="fas fa-eye"></i> View Letter
                     </a>
                 </div>
-            </div>
+        </div>
+    </section>
+
+    <!-- GitHub -->
+    <section class="section" id="github">
+        <div class="container">
+            <h2 class="section-title">GitHub</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Explore my code repositories, security tools, and project implementations on GitHub. 
+                        I regularly commit lab work, automation scripts, and personal projects.
+                    </p>
+                    <a href="https://github.com/davinzidan" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> Visit My GitHub
+                    </a>
+                </div>
         </div>
     </section>
 
@@ -301,28 +311,24 @@
                             <h4>Email</h4>
                             <a href="mailto:davinzidan99@gmail.com">davinzidan99@gmail.com</a>
                         </div>
-                    </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fas fa-phone"></i></div>
                         <div class="contact-detail">
                             <h4>Phone</h4>
                             <a href="tel:+919072272459">+91 90722 72459</a>
                         </div>
-                    </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
                         <div class="contact-detail">
                             <h4>LinkedIn</h4>
                             <a href="https://linkedin.com/in/davinzidan" target="_blank" rel="noopener noreferrer">linkedin.com/in/davinzidan</a>
                         </div>
-                    </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fas fa-shield-halved"></i></div>
                         <div class="contact-detail">
                             <h4>TryHackMe</h4>
                             <a href="https://tryhackme.com/p/davinzidan99" target="_blank" rel="noopener noreferrer">tryhackme.com/p/davinzidan99</a>
                         </div>
-                    </div>
                 </div>
                 <div class="contact-form-wrapper">
                     <form class="contact-form" id="contact-form">
@@ -341,7 +347,6 @@
                         <button type="submit" class="btn btn-primary btn-full">Send Message</button>
                     </form>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -357,10 +362,8 @@
                 <p class="footer-text">&copy; 2024 Ahammed Zidan M. All rights reserved.</p>
                 <p class="footer-credit">Crafted with AI assistance</p>
             </div>
-        </div>
     </footer>
 
     <script src="js/scripts.js"></script>
 </body>
 </html>
-
