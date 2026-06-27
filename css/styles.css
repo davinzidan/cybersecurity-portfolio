@@ -494,6 +494,11 @@ ul { list-style: none; }
     margin-top: auto;
 }
 
+.project-link {
+    align-self: flex-start;
+    margin-top: 1.25rem;
+}
+
 .tag {
     font-size: 0.75rem;
     font-weight: 500;
@@ -878,4 +883,3 @@ ul { list-style: none; }
         max-width: 1000px;
     }
 }
-
