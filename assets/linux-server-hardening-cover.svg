@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#07111f"/>
+  <rect x="70" y="70" width="1460" height="760" rx="28" fill="#0b1729" stroke="#38bdf8" stroke-width="3"/>
+  <text x="110" y="155" fill="#e5f6ff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Linux Server Hardening Audit</text>
+  <text x="112" y="215" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif" font-size="30">Security Engineer / Infrastructure Auditor</text>
+  <text x="112" y="272" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="24">Ahammed Zidan M | Cybersecurity | VAPT | SOC | CEH</text>
+  <g transform="translate(110,340)">
+    <rect width="430" height="250" rx="18" fill="#111f35" stroke="#2563eb"/>
+    <text x="28" y="55" fill="#bfdbfe" font-family="Arial" font-size="26" font-weight="700">Project Metrics</text>
+    <text x="28" y="105" fill="#e0f2fe" font-family="Arial" font-size="22">Hardening controls reviewed: 18</text>
+    <text x="28" y="150" fill="#e0f2fe" font-family="Arial" font-size="22">Passed controls: 11</text>
+    <text x="28" y="195" fill="#e0f2fe" font-family="Arial" font-size="22">Failed controls: 5</text>
+  </g>
+  <g transform="translate(610,340)">
+    <rect width="430" height="250" rx="18" fill="#111f35" stroke="#2563eb"/>
+    <text x="28" y="55" fill="#bfdbfe" font-family="Arial" font-size="26" font-weight="700">Frameworks</text>
+    <text x="28" y="105" fill="#e0f2fe" font-family="Arial" font-size="22">Lynis-style audit, CIS controls, UFW, auditd, SSH hardening, Bash/Python</text>
+  </g>
+  <g transform="translate(1110,340)">
+    <rect width="310" height="250" rx="18" fill="#111f35" stroke="#22c55e"/>
+    <text x="28" y="55" fill="#bbf7d0" font-family="Arial" font-size="26" font-weight="700">Status</text>
+    <text x="28" y="120" fill="#dcfce7" font-family="Arial" font-size="34" font-weight="700">Complete</text>
+    <text x="28" y="175" fill="#dbeafe" font-family="Arial" font-size="22">Safe local lab</text>
+  </g>
+  <polyline points="115,690 350,650 590,690 830,630 1070,675 1400,620" fill="none" stroke="#38bdf8" stroke-width="8"/>
+  <text x="110" y="780" fill="#93c5fd" font-family="Arial" font-size="26">GitHub-ready report | Portfolio card | LinkedIn content | Interview preparation</text>
+</svg>
